@@ -23,4 +23,5 @@ Paste the key as an argument and run `index.js`
 
 ## Current
 
-`index.js` is emitting an error saying data.json is not found. `ENOENT`
+`index.js` is getting blocked when tries to `writeFile` on an already open hyperdrive. Replication seems to be working fine.
+
