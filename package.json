@@ -1,0 +1,23 @@
+{
+  "name": "multiple-reopen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@geut/hyperdrive-promise": "github:geut/hyperdrive-promise#update-hyperdrive",
+    "corestore": "^5.0.5",
+    "dat-encoding": "^5.0.1",
+    "debug": "^4.1.1",
+    "hypercore-crypto": "^1.0.0",
+    "hyperswarm": "^2.5.0",
+    "pump": "^3.0.0",
+    "random-access-file": "^2.1.3",
+    "random-access-memory": "^3.1.1"
+  }
+}
